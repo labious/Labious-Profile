@@ -44,14 +44,28 @@ h5 {
     height:10%;
 
 }
-
-
-@media screen and (min-width:500px) {
-    .low-res {
-        display: none;
-    }
+.mid-section {
+    margin-top: 10px;
 }
 
+.icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+  
+  footer.page-footer {
+    margin: 0;
+  }
+ 
+  .page-footer {
+     background-color: #26a69a;
+  } 
+
+.s4 {
+    margin-top: 5vh;
+}
 
 /* ---------Parralax --------------- */
 /* Custom Stylesheet */
@@ -84,16 +98,18 @@ h5 {
    .parallax-container .section {
      width: 100%;
    }
+
+
  
- @media only screen and (max-width : 992px) {
+/*  @media only screen and (max-width : 992px) {
    .parallax-container .section {
-     position: absolute;
-     top: 40%;
+    
+     
    }
    #index-banner .section {
-     top: 10%;
+    
    }
- }
+ } */
  
  @media only screen and (max-width : 600px) {
    #index-banner .section {
@@ -101,17 +117,8 @@ h5 {
    }
  }
  
- .icon-block {
-   padding: 0 15px;
- }
- .icon-block .material-icons {
-   font-size: inherit;
- }
- 
- footer.page-footer {
-   margin: 0;
- }
-
- .page-footer {
-    background-color: #26a69a;
- }
+@media screen and (min-width:500px) {
+    .low-res {
+        display: none;
+    }
+}

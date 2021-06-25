@@ -6,9 +6,9 @@ body {
     .desktop {
         display: none;
     }
-    .hi3 {
-        position:absolute;
-        top: -100px;
-        margin-bottom: -50px;
+   .hero-btn {
+        position: absolute;
+        bottom: 15%;
+        left: 35%;
     }
 }
