@@ -5,6 +5,7 @@ body,html {
 
 .light {
     background-color: rgb(231, 224, 224);
+    background-color: #78c4ce;
 }
 .hero {
     background-color: #78c4ce;
@@ -109,4 +110,8 @@ h5 {
  
  footer.page-footer {
    margin: 0;
+ }
+
+ .page-footer {
+    background-color: #26a69a;
  }
