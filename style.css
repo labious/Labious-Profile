@@ -1,0 +1,112 @@
+body,html {
+    scroll-behavior: smooth;
+    background-color: #26a69a;
+}
+
+.light {
+    background-color: rgb(231, 224, 224);
+}
+.hero {
+    background-color: #78c4ce;
+}
+h5 {
+    color: #444;
+}
+.hi2 {
+    width: 25%;
+    height: 25%;
+    position: relative;
+    left: 40%;
+}
+
+#over-img {
+    color: #444;
+}
+
+.row-3 {
+    background-color: rgb(27, 17, 17);
+}
+
+.pint {
+    background-color: #eab99c;
+} 
+.nav-right {
+    position:absolute;
+    right:0;
+}
+
+.navs-right {
+    position:relative;
+    bottom:90px;
+    left:760px;
+    width:10%;
+    height:10%;
+
+}
+
+
+@media screen and (min-width:500px) {
+    .low-res {
+        display: none;
+    }
+}
+
+
+/* ---------Parralax --------------- */
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
